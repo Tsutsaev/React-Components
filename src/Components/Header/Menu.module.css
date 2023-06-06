@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    margin: auto 0;
+}
+.menu li {
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #003399;
+}
+.menu li:not(:last-child){
+margin-right: 30px;
+}

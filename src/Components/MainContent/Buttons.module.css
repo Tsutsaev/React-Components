@@ -1,0 +1,55 @@
+.buttons li {
+    list-style-type: none;
+}
+.buttons {
+    margin: auto;
+padding: 0;
+display: flex;
+justify-content: center;
+margin-bottom: 240px;
+}
+
+.buttons li:not(:last-child){
+    margin-right: 55px;
+    }
+
+.button_1 {
+    padding: 15px 40px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+background: #003399;
+border-radius: 4px;
+}
+.button_2 {
+    padding: 15px 40px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+background: #F27C0F;
+border-radius: 4px;
+}
+.button_3 {
+    padding: 15px 40px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+background: #E5E5E5;
+border-radius: 4px;
+}
